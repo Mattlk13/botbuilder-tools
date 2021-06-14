@@ -3,13 +3,20 @@
 
 ### [Click here to find out what's new for //build2019!](https://github.com/Microsoft/botframework/blob/master/whats-new.md#whats-new)
 
+## The new BF CLI replaces legacy standalone tools
+
+The Bot Framework SDK team is happy to announce the General Availability of the consolidated bot framework CLI tool [bf-cli](https://aka.ms/bfcli). The new BF CLI tool will replace legacy standalone tools to manage Bot Framework bots and related services. The old tools will be ported over in phases and all new features, bug fixes, and further investments will focus on the new BF CLI.  Old tools will still work for the time being, but they are going to be deprecated in future releases.
+
+Upon the release of Bot Framework SDK version 4.6 the following legacy tools have been ported: Chatdown, QnAMaker, LuisGen, and LuDown.  Dispatch CLI is on the path to be deprecated and replaced with [Orchestrator](https://aka.ms/bf-orchestrator).
+
+To learn more about the BF CLI please visit the [BF CLI github repository](https://aka.ms/bfcli).
+
+__The following page is about the legacy tools.__
+
 # Bot Framework Tools 
 [![Build Status](https://fuselabs.visualstudio.com/SDK_v4/_apis/build/status/Tools/Botbuilder-tools-js-daily?branchName=master)](https://fuselabs.visualstudio.com/SDK_v4/_build/latest?definitionId=467&branchName=master) [![Coverage Status](https://coveralls.io/repos/github/Microsoft/botbuilder-tools/badge.svg?branch=master)](https://coveralls.io/github/Microsoft/botbuilder-tools?branch=master) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
-The Bot Framework tools are a collection of cross-platform command line tools designed to cover end-to-end bot development workflow. This repo is part the [Microsoft Bot Framework](https://github.com/Microsoft/botframework) -  a comprehensive framework for building enterprise-grade conversational AI experiences.
-
-This repo is part the [Microsoft Bot Framework](https://github.com/microsoft/botframework) - a comprehensive framework for building enterprise-grade conversational AI experiences.
-
+The Bot Framework tools are a collection of cross-platform command line tools designed to cover end-to-end bot development workflow. This repo is part of the [Microsoft Bot Framework](https://github.com/Microsoft/botframework) -  a comprehensive framework for building enterprise-grade conversational AI experiences.
 
 | Stable release   | Tool | Description |
 |-----------------|------|--------------|
